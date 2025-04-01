@@ -13,7 +13,7 @@ public class Character {
     }
 
     public String getDescription(){
-        return "Voici le personnage " + this.getName();
+        return "Voici le personnage " + name + " qui possède en puissance totale : " + this.getPowerLevel();
     }
 
     private Character(CharacterBuilder character){

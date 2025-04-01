@@ -34,9 +34,9 @@ public class Main {
         
         // Affichage des personnages et leur niveau de puissance
         System.out.println("==== Personnages de base ====");
-        warrior.getDescription();
-        mage.getDescription();
-        rogue.getDescription();
+        System.out.println(warrior.getDescription());
+        System.out.println(mage.getDescription());
+        System.out.println(rogue.getDescription());
         
         // Application des décorations (capacités spéciales)
         System.out.println("\n==== Personnages avec capacités spéciales ====");
